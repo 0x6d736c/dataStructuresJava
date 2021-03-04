@@ -32,6 +32,10 @@ public class LinkedList<T> {
         size++;
     }
 
+    public void append(T value) {
+        append(new Node<T>(value));
+    }
+
     /**
      * Traverse LinkedList from head to tail. Print out its contents.
      */
@@ -118,4 +122,10 @@ public class LinkedList<T> {
             size--;
         }
     }
+
+    /**
+     * Getter method for size of LinkedList.
+     * @return int - size: the size of the current LinkedList.
+     */
+    public int getSize() { return this.size; }
 }
