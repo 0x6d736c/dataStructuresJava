@@ -14,7 +14,7 @@ public class LinkedList<T> {
 
     private Node<T> head = null;
     private Node<T> tail = null;
-    public int size = 0;
+    private int size = 0;
 
     /**
      * Appends Node to end of LinkedList
